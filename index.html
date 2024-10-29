@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradisi Bali</title>
+    <link href="https://fonts.googleapis.com/css2?family=Balinese+Text&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Balinese Text', cursive;
+            background-color: #fff8dc;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            background-image: url('batik-bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        h1 {
+            text-align: center;
+            color: #d2691e;
+            margin: 20px 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .item {
+            width: 400px;
+            margin: 30px;
+            cursor: pointer;
+            perspective: 1000px;
+            display: flex;
+            flex-direction: row;
+        }
+        .card {
+            width: 100%;
+            height: 500px;
+            position: relative;
+            border-radius: 10px;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .card:hover {
+            transform: rotateY(180deg);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+        .front, .back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 2px solid #8b4513;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            backface-visibility: hidden;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: auto;
+        }
+        .front img {
+            max-width: 100%;
+            max-height: 250px;
+            border-radius: 10px;
+        }
+        .back {
+            transform: rotateY(180deg);
+            font-size: 1.2em;
+        }
+        .title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 10px;
+            color: #5c3a2e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tradisi Bali</h1>
+    <div class="container">
+        <div class="item">
+            <div class="card">
+                <div class="front">
+                    <img src="MEPANDES.png" alt="Mepandes">
+                    <div class="title">MEPANDES/POTONG GIGI</div>
+                </div>
+                <div class="back">
+                    <p>
+                        Mepandes, atau potong gigi, adalah ritual wajib umat Hindu di Bali yang menandai peralihan menuju kedewasaan. Upacara ini bertujuan untuk menghilangkan sifat-sifat negatif yang diwakili oleh gigi taring. Prosesi dilakukan oleh pemangku dengan alat tradisional, biasanya bersamaan dengan upacara besar lainnya seperti pernikahan atau ngaben. Setelah upacara, individu diharapkan siap menghadapi tanggung jawab dalam kehidupan sosial.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card">
+                <div class="front">
+                    <img src="NGABEN.png" alt="Ngaben">
+                    <div class="title">NGABEN</div>
+                </div>
+                <div class="back">
+                    <p>
+                        Ngaben adalah ritual pembakaran mayat umat Hindu yang dilakukan di Bali. Ngaben merupakan ritual yang harus dilakukan untuk mengantarkan jenazah ke akhirat. Tujuan dari ritual Ngaben adalah untuk mempercepat jenazah orang yang meninggal agar dapat kembali ke tempat semula dan arwahnya dapat segera kembali ke alam Pitra. Kremasi juga merupakan simbol penyucian jiwa orang yang meninggal. Upacara ini sering kali melibatkan seluruh anggota keluarga dan masyarakat setempat sebagai bentuk penghormatan terakhir kepada almarhum.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card">
+                <div class="front">
+                    <img src="MELASTI.png" alt="Melasti">
+                    <div class="title">MELASTI</div>
+                </div>
+                <div class="back">
+                    <p>
+                        Melasti merupakan ritual Hindu Yadnya yang umumnya bertujuan untuk membersihkan diri secara jasmani dan rohani. Upacara Melasti diadakan setahun sekali dan merupakan bagian dari hari raya Nyepi Bali. Ritual melasti atau melelasti dapat diartikan sebagai Nganyudang Malaning Gumi Ngamet Tirta Amerta yang artinya membasuh kotoran alam dengan air kehidupan. Dalam kepercayaan Hindu, sumber air seperti danau dan lautan dianggap sebagai sumber Tirtha Amertha, yaitu air kehidupan. Ritual ini juga melibatkan prosesi membawa prasasti dan peralatan upacara ke sumber air.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card">
+                <div class="front">
+                    <img src="NGELAWANG.png" alt="Ngelawang">
+                    <div class="title">NGELAWANG</div>
+                </div>
+                <div class="back">
+                    <p>
+                        Ngelawang merupakan tradisi yang menangkal mara bahaya dan kejahatan. Ritual Ngelawang dilakukan dengan berjalan keliling banjar atau desa sambil menarikan tari Bangkung Barong. Ngelawang konon seolah mengembalikan ketenangan dan kedamaian bumi akibat kerusuhan, bencana, dan bencana yang terjadi di seluruh dunia. Tradisi ini sering diiringi dengan doa dan nyanyian untuk memohon keselamatan.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="card">
+                <div class="front">
+                    <img src="OGOHS.png" alt="Ngerupuk">
+                    <div class="title">UPACARA NGERUPUK</div>
+                </div>
+                <div class="back">
+                    <p>
+                        Ritual Ngerupuk dilaksanakan sehari sebelum Hari Raya Nyepi, dimana masyarakat melakukan persembahan kepada Bhuta Kala dengan tujuan mengusir Bhuta Kala dari campur tangan kehidupan masyarakat pada saat pertunjukan Brata Penyepian. Upacara ini melibatkan pawai dengan ogoh-ogoh yang merupakan patung-patung yang terbuat dari bambu dan kertas sebagai simbol Bhuta Kala.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
